@@ -1,4 +1,4 @@
-Project 2: Cohort Retention & Customer Lifetime Value (CLTV) Analysis
+##Project 2: Cohort Retention & Customer Lifetime Value (CLTV) Analysis
 
 Infotact Solutions — Data Analytics Internship (4-Week Sprint)
 
@@ -34,7 +34,7 @@ Repository Structure
 ├── CLTV_Dashboard.pbix              # Week 4 — Power BI Dashboard
 └── README.md
 
-aw and processed .csv files are excluded from GitHub via .gitignore per program data-privacy guidelines. To reproduce, place transactions_raw.csv and user_profiles.csv in Data/Row/ and run the notebooks in order (01 → 02 → 03).
+Raw and processed .csv files are excluded from GitHub via .gitignore per program data-privacy guidelines. To reproduce, place transactions_raw.csv and user_profiles.csv in Data/Row/ and run the notebooks in order (01 → 02 → 03).
 
 Tech Stack
 
@@ -59,6 +59,7 @@ Week 3 — CLTV: Calculated per-customer Average Order Value (AOV), Purchase Fre
 Week 4 — Dashboard: Built an interactive Power BI dashboard (Total Revenue, Total Customers, Average CLTV, Top 10 Customers, Revenue by Region/Channel) with slicers for Region and Acquisition Channel.
 
 Key Business Insights
+
 Retention drops sharply after Month 0. Across cohorts, retention falls from 100% to roughly 14–20% by Month 1, and continues to decline gradually through Month 7 — most churn happens in the first 30 days.
 South region generates the highest revenue (₹15.1L) and also the highest average CLTV (₹4,720.71) among all regions.
 East region has the lowest customer count (269 customers) and lowest average CLTV (₹4,548.97) — a candidate for targeted acquisition campaigns.
